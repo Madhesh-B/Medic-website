@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Quiz</title>
+    <link rel="shortcut icon" href="../../Assets/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headding">
+            <h1>Answer The Question</h1>
+        </div>
+        <div class="form-content">
+            <form action="">
+                <label for="Name">What is your Name ?</label>
+                <input class="input" id="Name" type="text" placeholder="Enter Your Name" autocomplete="off"><br>
+                <label for="Age">What is your Age ?</label>
+                <select class="input" name="" id="Age" >
+                    <option value="" selected>Select the option</option>
+                    <option value="">10 & below</option>
+                    <option value="">10-18</option>
+                    <option value="">19-40</option>
+                    <option value="">41-60</option>
+                    <option value="">60 & above</option>
+                </select> <br>
+                <label for="Problem">What is your Problem ?</label>
+                <select name="" class="input" id="Problem">
+                    <option value="" selected>Select the option</option>
+                    <option value="">Mental Pressure</option>
+                    <option value="">Stress And Depression</option>
+                    <option value="">Overthinking</option>
+                    <option value="">Others</option>
+                </select> <br>
+                <label for="Occupation">What is your Occupation ?</label>
+                <input class="input" id="Occupation" type="text" placeholder="Enter Your Occupation" autocomplete="off">
+            </form>
+        </div>
+        <div class="bottom">
+            <button class="Back btn" onclick="window.history.back()">Back</button>
+            <button class="Submit btn" onclick="location.href='../Completed/complete.html'">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
